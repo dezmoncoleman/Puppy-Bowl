@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add any global styles here */
+body {
+  @apply bg-gray-100 text-gray-900;
+}
+
+.custom-input {
+  @apply p-2 block w-full border border-gray-300 rounded;
+}
+
+.custom-button {
+  @apply bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-300;
+}
